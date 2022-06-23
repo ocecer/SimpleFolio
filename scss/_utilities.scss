@@ -1,0 +1,57 @@
+.container {
+    max-width: $max-width;
+    padding: 0 1.4rem;
+    margin: auto;
+}
+
+// Buttons
+%btn-shared {
+    display: inline-block;
+    padding: .7rem 2rem;
+    transition: all .5s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    &-primary {
+        @extend %btn-shared;
+        color: #333;
+        background-color: $primary-color;
+    }
+
+    &-light {
+        @extend %btn-shared;
+        color: #333;
+        background-color: $light-color;
+    }
+
+    &-dark {
+        @extend %btn-shared;
+        color: #333;
+        background-color: $dark-color;
+    }
+}
+
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"] {
+    background-color: $primary-color;
+}
+
+// Background
+.bg {
+    &-dark {
+        background-color: $dark-color;
+    }
+
+    &-primary {
+        background-color: $primary-color
+    }
+
+    &-light {
+        background-color: $light-color;
+    }
+}
+
+// Padding
