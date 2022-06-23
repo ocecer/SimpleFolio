@@ -5,58 +5,37 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Simple Portfolio</title>
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="assets/css/main.css">
+  <title>My Simple Portfolio</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-light bg-primary bg-gradient">
+  <!-- Header -->
+  <header id="header__home">
     <div class="container">
-      <a class="navbar-brand" href="#"><img class="rounded" src="https://picsum.photos/100/50" alt=""></a>
-      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
-        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">Projects</a>
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
-              <a class="dropdown-item" href="#">Ip Lookup</a>
-              <a class="dropdown-item" href="#">Password Generator</a>
-            </div>
-          </li>
+      <nav class="main-nav">
+        <img src="assets/images/logo.png" alt="" class="main-nav__logo">
+        <ul class="main-nav__items">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-        <!-- <form class="d-flex"> -->
-        <button class="btn btn-warning" type="button"><a class="text-decoration-none"
-            href="#contact">Contact</a></button>
-        <!-- </form> -->
+
+      </nav>
+      <div class="header-content">
+        <h1>My Simple Prtfolio
+          <span class="typewrite" data-period="1000"
+            data-type="['Web Development', 'Data Analysis', 'Python', 'SQL', 'R']"></span>
+        </h1>
+        <a href="" class="btn-light animate__animated animate__tada">Wiev My Profile</a>
       </div>
     </div>
-  </nav>
+  </header>
 
-  <div id="showcase" class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
-    <div class="container">
-      asdasdas
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/type-writer.js"></script>
 </body>
 
 </html>

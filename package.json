@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass -w scss -o public/assets/css"
+    "scss": "node-sass -w scss -o public/assets/css --output-style compressed"
   },
   "repository": {
     "type": "git",
