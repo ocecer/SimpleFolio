@@ -1,0 +1,23 @@
+{
+  "name": "simplefolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss -o public/assets/css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocecer/SimpleFolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ocecer/SimpleFolio/issues"
+  },
+  "homepage": "https://github.com/ocecer/SimpleFolio#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
