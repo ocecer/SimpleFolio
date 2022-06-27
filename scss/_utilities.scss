@@ -52,6 +52,9 @@ input[class^="btn-"] {
     &-light {
         background-color: $light-color;
     }
+    &-medium{
+        background-color: $medium-color;
+    }
 }
 
 // Padding
@@ -152,6 +155,7 @@ input[class^="btn-"] {
     font-size: 2rem;
     padding-bottom: 1rem;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .border-bottom {
